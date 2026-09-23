@@ -3,6 +3,8 @@ package com.example.jasonproject2;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -46,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         } else if (radio3.isChecked()) {
             pilih="Telp Kantor";
         }
-        Toast.makeText(this, pilih+ ":"
-        + phone, Toast.LENGTH_SHORT.show();
+        Toast.makeText(this, pilih+ ":" + phone, Toast.LENGTH_SHORT).show();
     }
 }
